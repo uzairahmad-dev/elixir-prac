@@ -93,3 +93,9 @@ end
 ##* case, pattern matching
 ##* Atom :ok, :error.... ---> For Handling status code, messages...
 ##* Pipe Operator |> ---> Chain Functions Call
+##* Two Types of data structures
+##? Maps (Like objects in Javascript)
+##* colors = %{primary: "red", secondary: blue} --> colors.primary || %{secondary: secondary_color} = colors
+##* Updating data in Maps --> Map.put(colors, :secondary, "green") ---> %{ colors | primary: "red" }
+##? Keyword List (Like List & Tuples Together)
+##* colors = [{:primary, "red"}, {:secondary, "green"}] --> [primary: "red", secondary: "green"] --> colors[:primary] --> red
